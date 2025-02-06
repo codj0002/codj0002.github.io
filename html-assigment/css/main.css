@@ -14,7 +14,7 @@ header,footer {
     box-shadow: 0px 0px 2px 1px #000000;
 }
 
-#hobbies {
+#hobbies ul {
     list-style-type:square;
 }
 
@@ -23,7 +23,9 @@ nav ul li {
     padding: 0;
     display: inline;
     margin-right: 15px;
+   text-decoration: none;
 }
+
 
 
 a:link,a:visited {
@@ -37,6 +39,7 @@ a:link,a:visited {
 
 a:hover {
     text-decoration: none;
+    background-color: rgb(220,206,0);
 }
 
 a :active {
