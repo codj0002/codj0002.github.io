@@ -18,12 +18,25 @@ header,footer {
     list-style-type:square;
 }
 
+#hobbies ul li:nth-child(odd) {
+background-color: rgb(220,206,0);
+padding: 5px;
+}
+
 nav ul li {
-    list-style-type: none;
+    text-decoration: none;
     padding: 0;
     display: inline;
     margin-right: 15px;
-   text-decoration: none;
+    text-align: center;
+   
+}
+
+nav ul li a {
+    text-decoration: none;
+    list-style-type: none;
+    border: rgb(220,206,0);
+    border-radius: 5px;
 }
 
 
@@ -32,14 +45,11 @@ a:link,a:visited {
     color: rgb(220,206,0);
     background-color: rgb(210,33,30);
     padding: 10px 20px;
-    text-align: center;
-    border: rgb(210,33,30);
-    border-radius: 5px;
 }
 
 a:hover {
     text-decoration: none;
-    background-color: rgb(220,206,0);
+    background-color: rgb(255, 255, 255) ;
 }
 
 a :active {
