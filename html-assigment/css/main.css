@@ -9,11 +9,11 @@ header,footer {
 }
 
 .site-title {
-    color: rgb(162,132, 151);
+    color: rgb(70, 109, 50);
     text-decoration-line: underline;
     text-decoration-style: wavy;
     text-align: center;
-    text-decoration-color: rgb(210,33,30);
+    text-decoration-color: rgb(46, 139, 13);
 }
 
 #my-image {
@@ -49,8 +49,8 @@ nav ul li a {
 }
 
 a:link,a:visited {
-    color: rgb(211,255,118);
-    background-color: rgb(74,82,64 );
+    color: rgb(76, 95, 34);
+    background-color: rgb(180, 223, 126);
     padding: 10px 20px;
 }
 
