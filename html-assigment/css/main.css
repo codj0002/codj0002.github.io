@@ -3,11 +3,11 @@ body {
 }
 
 header,footer {
-    background-color: rgb(24,113,43);
+    background-color: rgb(198, 202, 237);
 }
 
 .site-title {
-    color: rgb(220,206,0);
+    color: rgb(162,132, 151);
 }
 
 #my-image {
@@ -19,7 +19,7 @@ header,footer {
 }
 
 #hobbies ul li:nth-child(odd) {
-background-color: rgb(24,113,43);
+background-color: rgb(254, 245, 79);
 padding: 5px;
 }
 
@@ -34,19 +34,19 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     list-style-type: none;
-    border: rgb(220,206,0);
+    border: rgb(211,255,118);
     border-radius: 5px;
 }
 
 a:link,a:visited {
-    color: rgb(220,206,0);
-    background-color: rgb(210,33,30);
+    color: rgb(211,255,118);
+    background-color: rgb(74,82,64 );
     padding: 10px 20px;
 }
 
 a:hover {
     text-decoration: none;
-    background-color: rgba(255, 255, 255,0.5) ;
+    background-color: rgba(168, 132, 151,0.5);
 }
 
 a :active {
