@@ -8,34 +8,85 @@
 </head>
 <body>
     <!-- header with the image and text at the top -->
+<div class="wrapper">
     <header>
-        <h1></h1>
+        <div class="sword">
+            <h1>The Greatest swordman Ever</h1>
+        </div>
     </header>
-
     <nav>
         <ul>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li><a href="index.html"></a>Home</li>
+            <li><a href="images/9976e678f02bd7fef3cdb9d4cb7f0551.jpg"></a>Story</li>
+            <li><a href="newpage.html"></a>The Pirate Hunter</li>
         </ul>
     </nav>
-    
     <!-- article with an image showing the image in the corner-->
-
-    <article>
-        <secion>
-            <p></p>
-        </secion>
+    <article class="chopper" clearfix>
+        <section class="mugiwara">
+            <h2>Life of A Hunter</h2>
+                <img src="images/9976e678f02bd7fef3cdb9d4cb7f0551.jpg" alt="Roronoa Zoro">
+                    <p>
+                            <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Ea non delectus omnis soluta fuga obcaecati! Incidunt animi nesciunt nisi repudiandae ipsa rerum facilis numquam tenetur mollitia magni! 
+                                Cumque, a explicabo?Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Odit consequuntur voluptates inventore debitis earum harum distinctio deleniti eos a vero, velit, quo odio dolores? 
+                                Expedita eaque debitis odit delectus Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, provident quo perferendis blanditiis ea voluptas et sit reprehenderit, 
+                                quae delectus explicabo eos accusamus maiores facilis quas. Blanditiis error modi et!
+                            </span>
+                    </p>
+         </section>
     </article>
-
     <!-- list of fatcs about the content -->
+    <section class="booze">
+            <h2>Facts about Roronoa Zoro</h2>
+                <ul>
+                    <li>He Loves Alcool</li>
+                    <li>He is the second in command on the ship</li>
+                    <li>He uses his own three sword style</li>
+                    <li>Has a really poor sense of direction</li>
+                    <li>No matter what will always be there for his Captain</li>
+                </ul>
+    </section>
+    
+        <section>
+            <h2>The Pirate Hunter</h2>
+            <form action="newpage.html" method="get">
 
-    <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
+            <div class="love">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname">
+            </div>
+            
+            <div class="peace">
+                <label for="email">Your Mail</label>
+                <input type="mail" id="email" name="mailback">
+            </div>
+            
+            <div class="war">
+                <label for="question">What is your Favorite moment?</label>
+                <textarea id="question" name="q"></textarea>
+                </div>
+                    <div class="button">
+                    <button type="submit">Send</button>
+                    </div>
+                <div class="pain">
+                    <h2>Are you a Zoro fan?</h2>
+                    <label for="yes">Yes</label>
+                    <input type="radio" id="yes" name="mailback" value="y">
+
+                    <label for="no">No</label>
+                    <input type="radio" id="no" name="mailback" value="n">
+                    
+                    <label for="maybe">May be</label>
+                    <input type="radio" id="maybe" name="mailback" value="n">
+                </div>
+            <div class="button">
+                <button type="submit">Send it!</button>
+            </div>
+            </form>
+        </section>
+    
+</div>
 </body>
 </html>
