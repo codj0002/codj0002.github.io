@@ -7,8 +7,8 @@ body{
     margin: 0 auto;
     background-color: rgb(60,79,55);
 }
-
-.sword{
+/* head background image */
+.sword h1{
     background: url(../images/f9caf0f42070feda4b1cf148fb1c5510.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,19 +21,28 @@ section h2{
     text-decoration: underline;
     color: rgb(135,94,94);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10px;
 }
-
+/* --- Navbar Links --- */
 ul{
     text-align: center;
 }
+nav ul li{
+        display: inline-block;
+        padding: 10px 10px;
+        color: rgb(135,94,94);
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        position: relative;
+}
 
-nav ul li {
-    display: inline-block;
+nav ul li a {
+    display: flex;
     width: 150px;
     background-color: rgb(0,62,7);
     position: relative;
 }
 
+/* Side image */
 .mugiwara img{
     width: 200px;
     margin: 0 20px;
@@ -45,7 +54,7 @@ nav ul li {
     display: block;
     clear: both;
 }
-
+/* text display */
 .booze ul {
     display: inline-block;
     text-align: justify;
@@ -70,22 +79,48 @@ nav ul li {
 
 .war{
     width: 100px;
+    display: inline;
     margin: 0px 10px;
     border: 100px;
     border-radius: 10px;
-    text-align:center;
+    text-align: center;
 }
 
-:link,a:visited {
+#Sunny{
+    box-sizing: border-box;
+    border: 3px solid black;
+    margin: 5px auto;
+}
+
+textarea{
+    width: fit-content;
+    resize: both;
+}
+
+/* Send button effect */
+.button{
+   padding: 10px 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* footer */
+.footer{
+    padding: 10px;
+}
+
+/* link effect */
+.sword a:link,a:visited {
     color: rgb(76, 95, 34);
     background-color: rgb(76, 95, 34);
 }
-
-a:hover {
+/*  Hover Effect  */
+.sword a:hover {
     text-decoration: none;
-    background-color: rgb(40,182,27);
-}
-
-a :active {
     color: rgb(0, 0, 0);
+}
+/*Active Link */
+.sword a:active {
+    color: rgb(255, 255, 255);
 }
