@@ -8,13 +8,17 @@ body{
     background-color: rgb(60,79,55);
 }
 /* head background image */
-.sword h1{
+.sword {
     background: url(../images/f9caf0f42070feda4b1cf148fb1c5510.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 250px;
-    text-align: center;
     margin: 0 auto;
+}
+
+h1{
+text-align: center;
+margin: opx auto;
 }
 
 section h2{
@@ -54,7 +58,7 @@ a:link,a:visited {
     text-decoration: none;
     color: rgb(0, 0, 0);
     transform: scale(1.05);
-    
+
 }
 /*Active Link */
  a:active {
@@ -105,11 +109,14 @@ a:link,a:visited {
     text-align: center;
 }
 
-#Sunny{
-    box-sizing: border-box;
+#sunny{
+    border-spacing: 10px;
+    border-radius: 20px;
     border: 3px solid black;
-    margin: 5px auto;
-   
+    margin: 2px auto;
+    display: block;
+    padding: auto;
+
 }
 #fname{
     border-radius: 5px ;
@@ -127,6 +134,7 @@ a:link,a:visited {
 #question{
     border-radius: 5px ;
     width: 900px;
+    text-align: justify;
 }
 
 textarea{
