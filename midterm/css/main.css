@@ -14,6 +14,7 @@ body{
     background-size: cover;
     padding-bottom: 250px;
     text-align: center;
+    margin: 0 auto;
 }
 
 section h2{
@@ -32,7 +33,7 @@ nav ul li{
         padding: 10px 10px;
         color: rgb(135,94,94);
         box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-        position: relative;
+        /* position: relative; */
 }
 
 nav ul li a {
@@ -40,6 +41,24 @@ nav ul li a {
     width: 150px;
     background-color: rgb(0,62,7);
     position: relative;
+    text-decoration: none;
+}
+
+/* link effect */
+a:link,a:visited {
+    color: black;
+    background-color:none;
+}
+/*  Hover Effect  */
+ a:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transform: scale(1.05);
+    
+}
+/*Active Link */
+ a:active {
+    color: rgb(255, 255, 255);
 }
 
 /* Side image */
@@ -79,7 +98,7 @@ nav ul li a {
 
 .war{
     width: 100px;
-    display: inline;
+     display: inline-block;
     margin: 0px 10px;
     border: 100px;
     border-radius: 10px;
@@ -90,6 +109,24 @@ nav ul li a {
     box-sizing: border-box;
     border: 3px solid black;
     margin: 5px auto;
+   
+}
+#fname{
+    border-radius: 5px ;
+    width: 900px;
+    height: 30px;
+}
+
+
+#email {
+    border-radius: 5px ;
+    width: 900px;
+    height: 30px;
+}
+
+#question{
+    border-radius: 5px ;
+    width: 900px;
 }
 
 textarea{
@@ -107,20 +144,7 @@ textarea{
 
 /* footer */
 .footer{
-    padding: 15px;
+    padding: 10px;
 }
 
-/* link effect */
-.sword a:link,a:visited {
-    color: rgb(76, 95, 34);
-    background-color: rgb(76, 95, 34);
-}
-/*  Hover Effect  */
-.sword a:hover {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-}
-/*Active Link */
-.sword a:active {
-    color: rgb(255, 255, 255);
-}
+
