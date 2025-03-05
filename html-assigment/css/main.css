@@ -59,6 +59,6 @@ a:hover {
     background-color: rgba(168, 132, 151,0.5);
 }
 
-a :active {
+a:active {
     color: rgb(210,33,30);
 }

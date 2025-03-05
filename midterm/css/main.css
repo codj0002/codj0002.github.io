@@ -1,19 +1,29 @@
 body{
-    background-color:rgb(40,182,27) ;
+    background-color: rgb(60,79,55);
 }
 
 .wrapper{
     width: 1000px;
     margin: 0 auto;
-    background-color: rgb(60,79,55);
+    background-color: rgb(40,182,27);
 }
-
-.sword{
+/* head background image */
+.sword {
     background: url(../images/f9caf0f42070feda4b1cf148fb1c5510.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 250px;
-    text-align: center;
+    padding: 150px;
+    margin: 0 auto;
+}
+
+.sword h1{
+text-align: center;
+font-family: fantasy;
+/* text-decoration: underline; */
+font-size: 50px;
+color: rgb(119, 11, 11);
+margin: 0px auto;
+padding: 50px;
 }
 
 section h2{
@@ -21,34 +31,83 @@ section h2{
     text-decoration: underline;
     color: rgb(135,94,94);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10px;
 }
+/* --- Navbar Links --- */
 
-ul{
+nav ul{
     text-align: center;
 }
+nav ul li{
+        display: inline-flex;   
+        text-align: center;
+        color: rgb(135,94,94);
+        font-size: 18px;
+        /* position: relative; */
+}
 
-nav ul li {
-    display: inline-block;
+nav ul li a {
+    padding: 10px 40px;
     width: 150px;
-    background-color: rgb(0,62,7);
-    position: relative;
+    /* position: relative; */
+    text-align: center;
+    text-decoration: none;
+}
+
+/* link effect */
+a:link,a:visited {
+    color: black;
+}
+/*  Hover Effect  */
+ a:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    transform: scale(1.05);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+     border-style: groove;
+
+}
+/*Active Link */
+ a:active {
+    color: rgb(255, 255, 255);
+}
+
+/* Side image */
+.mugiwara h2{
+    text-decoration: none;
+    font-size: 24px;
+}
+.mugiwara h2,p{
+    font-size: 18px;
+    display: block;
+    margin: 20px 20px;
 }
 
 .mugiwara img{
     width: 200px;
     margin: 0 20px;
+    text-decoration: none;
     float: left;
     box-sizing: border-box;
 }
+
 .clearfix::after{
     content: "";
     display: block;
     clear: both;
 }
+/* text display */
+.booze h2{
+text-decoration: none;
+}
 
 .booze ul {
     display: inline-block;
     text-align: justify;
+    text-decoration: none;
+    font-size: 18px;
 }
 
 .love{
@@ -70,22 +129,59 @@ nav ul li {
 
 .war{
     width: 100px;
+     display: inline-block;
     margin: 0px 10px;
     border: 100px;
     border-radius: 10px;
-    text-align:center;
+    text-align: center;
 }
 
-:link,a:visited {
-    color: rgb(76, 95, 34);
-    background-color: rgb(76, 95, 34);
+#sunny{
+    border-spacing: 10px;
+    border-radius: 20px;
+    border: 3px solid black;
+    margin: 10px 10px;
+    display: block;
 }
 
-a:hover {
+#sunny h2{
     text-decoration: none;
-    background-color: rgb(40,182,27);
 }
 
-a :active {
-    color: rgb(0, 0, 0);
+#fname{
+    border-radius: 5px ;
+    width: 900px;
+    height: 30px;
 }
+
+#email {
+    border-radius: 5px ;
+    width: 900px;
+    height: 30px;
+}
+
+#question{
+    border-radius: 5px ;
+    width: 900px;
+    text-align: justify;
+}
+
+textarea{
+    width: fit-content;
+    resize: both;
+}
+
+/* Send button effect */
+.button{
+   padding: 10px 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* footer */
+.footer{
+    padding: 10px;
+}
+
+
