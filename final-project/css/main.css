@@ -1,0 +1,523 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+line-height: 1.6;
+color:black;
+}
+
+img {
+  max-width: 1200px;
+  /* display: block; */
+  margin: auto;
+  /* padding: 20px; */
+
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px
+}
+
+   /* =====================================
+     Header & Navigation
+     ===================================== */
+
+  header {
+    background-color: #c78c06;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  header .logo-header {
+    background-color: #c78c06;
+    padding: 10px 50px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    background-color: #1a1a1a;
+  }
+ 
+  nav a {
+    background-color: transparent;
+    text-decoration: none;
+    color: #c78c06;
+    display: block;
+    padding: 10px 0;
+  }
+  
+   .search-form {
+    background-color: #1a1a1a;
+    padding: 10px 20px;
+    display: flex;
+  }
+ 
+  .search-form input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #c78c06;
+  }
+  
+  .search-form button {
+    background-color: #1a1a1a;
+    color: #c78c06;
+    border: 1px solid #c78c06;
+    padding: 8px;
+  }
+
+  nav a:hover,
+  nav a:focus {
+    background-color: white;
+    color: #c78c06;
+    text-decoration: none;
+  }
+  
+  .search-form {
+    display: flex;
+  }
+  
+  .search-form input {
+    flex: 1;
+    padding: 5px;
+    border: none;
+    outline: none;
+  }
+   
+  .search-form button {
+    background-color: #000000;
+    padding: 5px 10px;
+  } 
+
+   /* =====================================
+     Welcome Section (was .sign-section)
+     ===================================== */
+
+  .welcome {
+    color: white;
+    background-size: cover;
+    background-position: center;
+    /* padding: 60px 0; */
+  }
+  
+  .welcome .wrapper {
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+  .welcome h1 {
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .welcome p {
+    margin-bottom: 15px;
+    font-size: 0.7rem;
+    color: white;
+  }
+ 
+  .welcome a {
+    display: inline-flex;
+    align-items: center;
+    background-color: #c78c06;
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 15 px;
+  }
+   
+
+   /* =====================================
+     About Us Section (#aboutus)
+     ===================================== */
+
+  .aboutus {
+    background-color: #fde5a6;
+    padding: 40px 20px;
+  }
+
+  .aboutus img{
+    width: 100%;
+  }
+  
+  .aboutus h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+  .aboutus p{
+    font-size: 0.7rem;
+  }
+
+  /* =====================================
+     Services Section (#services)
+     ===================================== */
+   
+  .ourservices {
+    background-color: #fde5a6;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+  
+  .ourservices img {
+    width: 100%;
+    /* height: auto; */
+  }
+  
+  .ourservices h2 {
+    /* background-color: white; */
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+
+  .ourservices h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+
+  .ourservices p{
+    font-size: 0.7rem;
+  }
+  
+  .ourservices a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+    margin-top: 10px;
+  }
+  
+
+  .marketing {
+    background-color: #fde5a6;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  .marketing h2 {
+    /* background-color: white; */
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+
+  .marketing p{
+    font-size: 0.7rem;
+  }
+
+  .marketing a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+    margin-top: 10px;
+  }
+  
+  .video {
+    background-color: #fde5a6;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  .video h2 {
+    /* background-color: white; */
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+
+  .video p{
+    font-size: 0.7rem;
+  }
+
+  .video a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+    margin-top: 10px;
+  }
+  
+
+  .webdev {
+    background-color: #fde5a6;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  .webdev h2 {
+    /* background-color: white; */
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+
+  .webdev p{
+    font-size: 0.7rem;
+  }
+
+  .webdev a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+    margin-top: 10px;
+  }
+  
+  
+
+  .print {
+    background-color: #fde5a6;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+  }
+
+  .print h2 {
+    /* background-color: white; */
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+
+  .print a {
+    display: inline-block;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 20px 20px;
+    margin-top: 10px;
+  }
+
+  .print p{
+    font-size: 0.7rem;
+  }
+  
+ 
+  /* =====================================
+     Vision Section (.ourvision)
+     ===================================== */
+
+  .ourvision {
+    background-image: url("../images/vision.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+
+  .ourvision  h2 {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 10px 0;
+  } 
+  
+  .ourvision a {
+    display: inline-block;
+    background-color: transparent;
+    border: solid #c78c06;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+  }
+
+  .ourvision p{
+    font-size: 0.7rem;
+  }
+
+  .ourvision i {
+    color:black;
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+
+  /* =====================================
+     Team Section (#team)
+     ===================================== */ 
+
+  .ourteam  {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 20px;
+  }
+
+  .ourteam  h2 {
+    /* background-color: white; */
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0;
+  } 
+  
+  .ourteam  h3 {
+    /* background-color: white; */
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 10px 0;
+  } 
+
+  .ourteam  h4 {
+    /* background-color: white; */
+    font-size: 15px;
+    text-decoration: underline solid #c78c06;
+    font-weight: bold;
+    margin: 10px 0;
+  } 
+
+
+  .ourteam article {
+    background-color: #fde5a6;
+    padding: 20px;
+  }
+  
+  .ourteam img {
+    width: 100%;
+    height: auto;
+  }
+  
+  #contact-form .wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 20px;
+  }
+  
+  #contact-form form {
+    width: 100%;
+  }
+  
+  #contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  /* #contact-form input,
+  #contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  } */
+  
+  #contact-form button {
+    padding: 10px 20px;
+    background-color: #caa73d;
+    border: none;
+  }
+  
+  iframe.map {
+    width: 100%;
+    border: none;
+  }
+  
+  table {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  table th,
+  table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  table thead {
+    background-color: #fde5a6;
+  }
+  
+  footer {
+    background-color: #1a1a1a;
+    color: #fde5a6;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+  }
+  
+  footer a {
+    color: #fde5a6;
+    text-decoration: underline;
+  }
+ 
+  /* @media (min-width: 760px) {
+    header {
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    nav ul {
+      flex-direction: row;
+      gap: 20px;
+    }
+  
+    .search-form {
+      width: auto; */
+    }
+  
+    /* #aboutus .wrapper {
+      flex-direction: row;
+    }
+  
+    #aboutus img {
+      max-width: 50%;
+    }
+  
+    #services .wrapper {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  
+    #services article {
+      flex: 1 1 calc(33% - 20px);
+    }
+  
+    #team .wrapper {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+  
+    #team article {
+      flex: 1 1 48%;
+    }
+  
+    #contact .wrapper {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  
+    #contact form,
+    #contact iframe.map {
+      flex: 1;
+    }
+  
+    #contact iframe.map {
+      margin-left: 20px;
+    }
+  } */ */
