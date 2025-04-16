@@ -10,13 +10,12 @@ line-height: 1.6;
 color:black;
 }
 
-img {
+/* img {
   max-width: 1200px;
-  /* display: block; */
+  display: block;
   margin: auto;
-  /* padding: 20px; */
-
-}
+  padding: 20px;
+} */
 
 .wrapper {
   max-width: 1200px;
@@ -39,7 +38,6 @@ img {
   
   header .logo-header {
     background-color: #c78c06;
-    padding: 10px 50px;
   }
 
   nav ul {
@@ -49,6 +47,12 @@ img {
     background-color: #1a1a1a;
   }
  
+  nav li:first-child a {
+    background-color: #c78c06;
+    color: black;
+    padding: 20px;
+  }
+
   nav a {
     background-color: transparent;
     text-decoration: none;
@@ -107,7 +111,6 @@ img {
     color: white;
     background-size: cover;
     background-position: center;
-    /* padding: 60px 0; */
   }
   
   .welcome .wrapper {
@@ -140,12 +143,19 @@ img {
    
 
    /* =====================================
-     About Us Section (#aboutus)
+     About Us Section 
      ===================================== */
+
+
+  #our-services .container {
+    gap: 10px;
+
+  }
 
   .aboutus {
     background-color: #fde5a6;
     padding: 40px 20px;
+    margin-bottom: 1rem;
   }
 
   .aboutus img{
@@ -163,23 +173,22 @@ img {
   }
 
   /* =====================================
-     Services Section (#services)
+     Services Section
      ===================================== */
    
   .ourservices {
     background-color: #fde5a6;
     display: flex;
     flex-direction: column;
-    padding: 40px 20px;
+    padding: 20px 20px;
+    margin-bottom: 1rem;
   }
   
   .ourservices img {
     width: 100%;
-    /* height: auto; */
   }
   
   .ourservices h2 {
-    /* background-color: white; */
     font-size: 30px;
     font-weight: bold;
     margin: 10px 0;
@@ -210,10 +219,10 @@ img {
     display: flex;
     flex-direction: column;
     padding: 40px 20px;
+    margin-bottom: 1rem;
   }
 
   .marketing h2 {
-    /* background-color: white; */
     font-size: 20px;
     font-weight: bold;
     margin: 10px 0;
@@ -237,10 +246,10 @@ img {
     display: flex;
     flex-direction: column;
     padding: 40px 20px;
+    margin-bottom: 1rem;
   }
 
   .video h2 {
-    /* background-color: white; */
     font-size: 20px;
     font-weight: bold;
     margin: 10px 0;
@@ -265,10 +274,10 @@ img {
     display: flex;
     flex-direction: column;
     padding: 40px 20px;
+    margin-bottom: 1rem;
   }
 
   .webdev h2 {
-    /* background-color: white; */
     font-size: 20px;
     font-weight: bold;
     margin: 10px 0;
@@ -286,18 +295,16 @@ img {
     padding: 20px 20px;
     margin-top: 10px;
   }
-  
-  
 
   .print {
     background-color: #fde5a6;
     display: flex;
     flex-direction: column;
     padding: 40px 20px;
+    margin-bottom: 1rem;
   }
 
   .print h2 {
-    /* background-color: white; */
     font-size: 20px;
     font-weight: bold;
     margin: 10px 0;
@@ -318,7 +325,7 @@ img {
   
  
   /* =====================================
-     Vision Section (.ourvision)
+     Vision Section 
      ===================================== */
 
   .ourvision {
@@ -357,25 +364,44 @@ img {
   
 
   /* =====================================
-     Team Section (#team)
+     Team Section 
      ===================================== */ 
 
   .ourteam  {
+    background-color: white;
     display: flex;
     flex-direction: column;
-    gap: 20px;
     padding: 40px 20px;
+    margin-bottom: 1rem;
   }
 
+  .team-members{
+     background-color: #fde5a6;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+    margin-bottom: 1rem;
+  }
+
+  .team-member{
+    background-color: #fde5a6;
+   display: flex;
+   flex-direction: column;
+   padding: 40px 20px;
+   margin-bottom: 1rem;
+ }
+
+
   .ourteam  h2 {
-    /* background-color: white; */
     font-size: 30px;
     font-weight: bold;
     margin: 10px 0;
   } 
+  .ourteam p{
+    font-size: 0.7rem;
+  }
   
   .ourteam  h3 {
-    /* background-color: white; */
     font-size: 20px;
     font-weight: bold;
     font-family: sans-serif;
@@ -383,7 +409,6 @@ img {
   } 
 
   .ourteam  h4 {
-    /* background-color: white; */
     font-size: 15px;
     text-decoration: underline solid #c78c06;
     font-weight: bold;
@@ -417,14 +442,6 @@ img {
     margin-bottom: 5px;
     font-weight: bold;
   }
-  
-  /* #contact-form input,
-  #contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-  } */
   
   #contact-form button {
     padding: 10px 20px;
@@ -465,22 +482,44 @@ img {
     text-decoration: underline;
   }
  
-  /* @media (min-width: 760px) {
+  @media screen and (min-width: 760px) {
+
     header {
-      flex-direction: row;
+      display: flex;
+      background-color:#000000;;
+      flex-direction: column;
       align-items: center;
       justify-content: space-between;
     }
-  
+
+    img {
+      display: flex;
+      background-color: #000000;
+      padding: none;
+      justify-content: space-between;
+      flex-direction: row;
+    }
+
     nav ul {
+      display: flex;
+      background-color: #000000;
+      align-items: center;
+      justify-content: space-between;
       flex-direction: row;
       gap: 20px;
+    }
+
+    nav li:first-child a {
+      background-color: none;
+      color: none;
+      /* padding: 10px; */
     }
   
     .search-form {
       width: auto; */
     }
-  
+  }
+
     /* #aboutus .wrapper {
       flex-direction: row;
     }
