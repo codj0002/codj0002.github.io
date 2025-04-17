@@ -38,8 +38,8 @@ color:black;
   
   header .logo-header {
     background-color: #c78c06;
-  }
 
+  }
   nav ul {
     flex-direction: column;
     text-align: center;
@@ -136,7 +136,7 @@ color:black;
     align-items: center;
     background-color: #c78c06;
     color: black;
-    padding: 10px 10px;
+    padding: 20px 20px;
     text-decoration: none;
     font-size: 1.5rem;
   }
@@ -426,32 +426,44 @@ color:black;
     height: auto;
   }
   
-  #contact-form .wrapper {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding: 40px 20px;
+  #contact-form h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
   }
-  
-  #contact-form form {
+
+  #contact-form h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  #fname , #email , #message{
     width: 100%;
   }
   
-  #contact-form label {
-    display: block;
-    margin-bottom: 5px;
+  #contact-form button {
+    padding: 10px 10px;
+    color: #c78c06;
+    background-color: #000000;
+    border: none;
+  }
+
+  .hours h2{
+    margin-top: 20px;
+    font-size: 2rem;
     font-weight: bold;
   }
-  
-  #contact-form button {
-    padding: 10px 20px;
-    background-color: #caa73d;
-    border: none;
+
+  .location h2{
+    margin-top: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
   }
   
   iframe.map {
     width: 100%;
-    border: none;
   }
   
   table {
@@ -471,10 +483,10 @@ color:black;
   
   footer {
     background-color: #1a1a1a;
-    color: #fde5a6;
-    text-align: center;
+    color: #c78c06;
+    text-align:left;
     padding: 20px;
-    font-size: 0.9em;
+    font-size: 0.5em;
   }
   
   footer a {
@@ -484,9 +496,10 @@ color:black;
  
   @media screen and (min-width: 760px) {
 
+    
     header {
       display: flex;
-      background-color:#000000;;
+      background-color:#c78c06;;
       flex-direction: column;
       align-items: center;
       justify-content: space-between;
@@ -508,55 +521,12 @@ color:black;
       flex-direction: row;
       gap: 20px;
     }
-
-    nav li:first-child a {
-      background-color: none;
-      color: none;
-      /* padding: 10px; */
-    }
   
     .search-form {
-      width: auto; */
+      width: 0 auto;
     }
+  
+
   }
 
-    /* #aboutus .wrapper {
-      flex-direction: row;
-    }
-  
-    #aboutus img {
-      max-width: 50%;
-    }
-  
-    #services .wrapper {
-      flex-direction: row;
-      flex-wrap: wrap;
-    }
-  
-    #services article {
-      flex: 1 1 calc(33% - 20px);
-    }
-  
-    #team .wrapper {
-      flex-direction: row;
-      flex-wrap: wrap;
-    }
-  
-    #team article {
-      flex: 1 1 48%;
-    }
-  
-    #contact .wrapper {
-      flex-direction: row;
-      justify-content: space-between;
-    }
-  
-    #contact form,
-    #contact iframe.map {
-      flex: 1;
-    }
-  
-    #contact iframe.map {
-      margin-left: 20px;
-    }
-  } */ */
+ 
