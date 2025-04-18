@@ -110,9 +110,7 @@ a:hover, a:focus {
   font-size: 1rem;
   background: transparent;
   color: #c78c06;
-  cursor: pointer;
 }
-
 /* Welcome section */
 .welcome {
   background-image: url('../images/main-banner.jpg');
@@ -239,7 +237,6 @@ a:hover, a:focus {
 
 .team-flex-item {
   background-color: #ffe6ac;
-  /* padding-bottom: 0px; */
 }
 
 .team-flex-item img {
@@ -313,7 +310,7 @@ textarea {
 
 table {
   width: 100%;
-   font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   margin-bottom: 15px;
 }
