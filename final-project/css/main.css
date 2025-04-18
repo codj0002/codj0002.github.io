@@ -142,7 +142,7 @@ a:hover, a:focus {
   border: 0;
   font-size: 20px;
   background-color: #c78c06;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* About us section */
@@ -194,7 +194,7 @@ a:hover, a:focus {
 .services-flex-item button {
   background-color: #222222;
   color: white;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   border: 0;
   padding: 15px;
   font-size: 1.5rem;
@@ -219,7 +219,7 @@ a:hover, a:focus {
   background-color: rgba(34, 34, 34, 0.7);
   display: flex;
   color: white;
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   padding: 20px;
   font-size: 1.5rem;
   border: #c78c06 0.5px solid;
@@ -281,7 +281,7 @@ a:hover, a:focus {
 }
 
 .form-item {
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   font-weight: 600;
 }
@@ -313,7 +313,7 @@ textarea {
 
 table {
   width: 100%;
-  font-family: Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   margin-bottom: 15px;
 }
