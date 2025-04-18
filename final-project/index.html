@@ -1,189 +1,222 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>codj0002 final project</title>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>codj0002 final project</title>
 
-        <script src="https://kit.fontawesome.com/26a85dac0e.js" crossorigin="anonymous"></script>
-        
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/reset.css">
-        
-    </head>
-    <body class="wrapper">
-        <div>
-            <header class="header">
-                <img src="images/logo.png" alt="Three Star Media logo" class="logo-header">
-                <nav class="nav">
-                    <ul>
-                        <li><a href="#welcome">Home</a></li>
-                        <li><a href="#about-us">About us</a></li>
-                        <li><a href="#our-services">Services</a></li>
-                        <li><a href="#our-team">Team</a></li>
-                        <li><a href="#contact-form">Contact</a></li>
-                    </ul>
-                </nav>
-                <form action="index.html" method="get" class="search-form">
-                    <input type="text" placeholder="Search">
-                    <button type="submit">
-                        <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
-                    </button>
-                </form>                  
-            </header>
-        </div>
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
 
-                <section class="welcome" id="welcome" style="background-image: url(images/main-banner.jpg); background-size: cover;" >
-                    <div class="wrapper">
-                        <h1>Welcome to Three Star Media</h1>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magni quas doloribus, consectetur veniam quibusdam, voluptatem ex, exercitationem debitis vitae doloremque ratione distinctio nemo facere quo rerum eveniet blanditiis. Explicabo, porro.</p>
-                        <a href="#">Connect with us
-                            <i class="fa-sharp fa-solid fa-caret-right"></i>
-                        </a>
-                    </div>
-                </section>
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/26a85dac0e.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="wrapper">
+      <div class="header-bg">
+        <header class="header-nav" id="nav-desktop">
+          <div class="logo-header">
+            <img id="logo" src="images/logo.png" alt="Logo with three stars">
+          </div>
+          <nav>
+            <ul class="nav-bar">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="search-form">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button type="submit">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </header>
+      </div>
+    </div>
 
-        <div class="aboutus" id="about-us">
-            <img src="images/about-us.jpg" alt="About us office destop">
-            <section>
-             <h2>About Us</h2>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi incidunt maxime aliquam distinctio placeat, et nesciunt voluptates nam ut quidem in perferendis officiis consectetur maiores consequuntur modi totam amet magnam.</p><br>
-                <p>Unde accusantium dolorem eum aperiam voluptate quibusdam quaerat voluptas consequatur culpa rem. Aspernatur, adipisci delectus eaque impedit, eius doloribus asperiores error, in ducimus quas voluptatum possimus ipsa ad temporibus unde.</p>
-            </section>
+    <!-- Welcome Section -->
+    <section class="welcome">
+      <div class="wrapper">
+        <div class="welcome-form">
+          <div class="welcome-text">
+            <h1>Welcome to Three Star Media</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipiscing elit. Magnam rerum voluptas nesciunt quam nostrum similique nihil laboriosam provident neque, recusandae voluptate temporibus! Animi accusamus id fuga voluptatibus facilis iusto consequuntur!
+            </p>
+            <button class="welcome-button">
+              Connect with us <i class="fa-solid fa-caret-right"></i>
+            </button>
+          </div>
         </div>
-        
-        <div class="ourservices" id="our-services">
-            <section>
-                <h2>Our services</h2><br>
-                <img src="images/digital.jpg" alt="image of a phone">
-                <h3>Digital transformation</h3>
-                <p>Unde accusantium dolorem eum aperiam voluptate quibusdam quaerat voluptas consequatur culpa rem. Aspernatur, adipisci delectus eaque impedit, eius doloribus asperiores error, in ducimus quas voluptatum possimus ipsa ad temporibus unde.</p>
-                <a href="#">Digital Plans
-                    <i class="fa-sharp fa-solid fa-caret-right"></i>
-                </a>
-            </section>      
-        </div>
-        <div class="marketing">
-            <img src="images/marketing.jpg" alt="image of a laptop">
-            <section>
-                <h2>Marketing</h2>
-                <p>Unde accusantium dolorem eum aperiam voluptate quibusdam quaerat voluptas consequatur culpa rem. Aspernatur, adipisci delectus eaque impedit, eius doloribus asperiores error, in ducimus quas voluptatum possimus ipsa ad temporibus unde.</p>
-                <a href="#">Marketing Plans
-                    <i class="fa-sharp fa-solid fa-caret-right"></i>
-                 </a>
-            </section>        
-        </div>
-        <div class="video">
-            <img src="images/video.jpg" alt=" Video Production Image">
-            <section>
-                <h2>Video Production</h2>
-                <p>Unde accusantium dolorem eum aperiam voluptate quibusdam quaerat voluptas consequatur culpa rem. Aspernatur, adipisci delectus eaque impedit, eius doloribus asperiores error, in ducimus quas voluptatum possimus ipsa ad temporibus unde.</p>
-                 <a href="#">Video Plans
-                   <i class="fa-sharp fa-solid fa-caret-right"></i>
-                </a>
-            </section>          
-        </div>
-        <div class="webdev">
-            <img src="images/web.jpg" alt="Wev Dev Image">
-            <section>
-                <h2>Web Development</h2>
-                <p>Unde accusantium dolorem eum aperiam voluptate quibusdam quaerat voluptas consequatur culpa rem. Aspernatur, adipisci delectus eaque impedit, eius doloribus asperiores error, in ducimus quas voluptatum possimus ipsa ad temporibus unde.</p>
-                <a href="#">Web Plans
-                 <i class="fa-sharp fa-solid fa-caret-right"></i>
-                </a>
-            </section>             
-        </div>
-        <div class="print">
-            <img src="images/print.jpg" alt="print-image">
-            <section>
-                <h2>Print</h2>
-                <p>Unde accusantium dolorem eum aperiam voluptate quibusdam quaerat voluptas consequatur culpa rem. Aspernatur, adipisci delectus eaque impedit, eius doloribus asperiores error, in ducimus quas voluptatum possimus ipsa ad temporibus unde.</p>
-                <a href="#">Print Plans
-                    <i class="fa-sharp fa-solid fa-caret-right"></i>
-                </a>
-            </section>       
-        </div>
-            <section class="ourvision" id="ourvision" style="background-image: url(images/vision.jpg); background-size: cover;" >
-                <div class="wrapper">
-                    <h2>Our Vision</h2>
-                    <p>Unde accusantium dolorem eum aperiam voluptate quibusdam quaerat voluptas consequatur culpa rem. Aspernatur, adipisci delectus eaque impedit, eius doloribus asperiores error, in ducimus quas voluptatum possimus ipsa ad temporibus unde.</p>
-                    <a href="#">Learn More
-                        <i class="fa-sharp fa-solid fa-caret-right"></i>
-                    </a>
-                </div>
-            </section>    
-
-        <div class="ourteam" id="our-team">
-            <section>
-                <h2>Our Team</h2>
-                <div class="team-members">
-                    <img src="images/john.jpg" alt="John Doe">
-                    <h3>John Doe</h3>
-                    <h4>CEO and Co-Owner</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem pariatur ex sequi. Minima, distinctio quos. Possimus, in sunt perspiciatis, eligendi at dolor ut tenetur veritatis illo eius natus, ipsum optio.</p>
-                </div>
-                <div class="team-member">
-                    <img src="images/bob.jpg" alt="Bob Rite">
-                    <h3>Bob Rite</h3>
-                    <h4>CFO and Co-Owner</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem dicta veritatis dolor blanditiis, tenetur a temporibus laboriosam, officia saepe tempora itaque! Vero nisi, reprehenderit nihil ipsa quod animi nobis voluptate?</p>
-                </div>
-            </section>
-        </div>
-            <!-- Contact form section Form -->
-    <section id="contact-form">
-            <h2>Contact Us</h2>
-        
-        <section>
-            <h3>Send us message</h3>
-        </section> 
-        <form action="index.html" method="get">
-            <div class="fullname">
-                <label for="fname">Full Name</label><br>
-                <input type="text" id="fname" name="firstname"> 
-            </div>
-            <div class="mail">
-                <label for="email">Email</label><br>
-                <input type="email" id="email" name="email">
-            </div>
-            <div class="sms">
-                <label for="message">Message</label><br>
-                <textarea id="message" name="message"></textarea>
-            </div>
-            <button type="submit">SEND</button>
-        </form>
+      </div>
     </section>
-                <!-- Tables hours  -->
-            <section class="hours">
-                <h2>Hours of operation</h2>
-                <table>
-                <thead>
-                    <tr>
-                        <th>Days</th>
-                        <th>Hours</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th>Monday-Friday</th>
-                        <th>9 AM- 6 PM</th>
-                    </tr>
-                    <tr>
-                        <th>Saturday - Sunday </th>
-                        <th> Closed </th>
-                    </tr>
-                </tbody>
-                </table>
-            </section>
-                <div >
-                    <section class="location">
-                     <h2>Location</h2>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22433.76503734216!2d-75.75306239999998!3d45.344358400000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1743079492487!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </section>  
-                 </div>
-            <footer>
-                © copyright Three Star Media 2020 <br>
-                All images are taken from Unsplash
-            </footer>
-            
-    </body>
+
+    <!-- About Section -->
+    <section id="desktop-bg">
+      <div class="wrapper">
+        <div class="aboutus">
+          <img src="images/about-us.jpg" alt="table image" id="about-us-img">
+          <div id="about-us">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Libero unde repellendus exercitationem asperiores ducimus placeat, maxime soluta nesciunt pariatur aliquam consequuntur sequi saepe sint praesentium laboriosam perferendis eius amet ad?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Animi, velit ipsam? Atque accusamus, excepturi corrupti sunt reiciendis soluta quo commodi quidem, non perferendis vel sed facilis rerum cum in exercitationem?</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="ourservices">
+      <div class="wrapper">
+        <h2>Our Services</h2>
+        <div class="servicesflexbox">
+
+          <div class="servicesflexone">
+            <img src="images/digital.jpg" alt="Laptop and cellphone" id="services-digital">
+            <h3>Digital Transformation</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam saepe libero tenetur commodi quo. Velit minima sed placeat, voluptas qui libero, ex maxime dicta dolores rerum similique, molestias consequuntur quod?</p>
+            <button>Digital Plans <i class="fa-solid fa-caret-right"></i></button>
+          </div>
+
+          <div class="servicesflextwo">
+            <img src="images/marketing.jpg" alt="Laptop Showing signs" id="services-marketing">
+            <h3>Marketing</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam incidunt, ex eveniet similique nostrum aliquam quo ullam, consequatur architecto mollitia in temporibus omnis blanditiis, itaque facilis quod cumque adipisci error?</p>
+            <button>Marketing Plans <i class="fa-solid fa-caret-right"></i></button>
+          </div>
+
+          <div class="servicesflexthree">
+            <img src="images/video.jpg" alt="Cellphone" id="services-video">
+            <h3>Video Production</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo maiores, sapiente cupiditate reiciendis minus suscipit optio, deserunt pariatur numquam fuga dolore repellendus at quae eligendi vel sequi impedit, nobis voluptatibus.</p>
+            <button>Video Plans <i class="fa-solid fa-caret-right"></i></button>
+          </div>
+
+          <div class="servicesflexfour">
+            <img src="images/web.jpg" alt="Cellphone two" id="services-web">
+            <h3>Web Development</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius vitae veniam pariatur, labore iste odit, laboriosam reprehenderit soluta excepturi dolore impedit eum animi placeat laborum magnam assumenda eligendi magni nostrum.</p>
+            <button>Web Plans <i class="fa-solid fa-caret-right"></i></button>
+          </div>
+
+          <div class="servicesflexfive">
+            <img src="images/print.jpg" alt="Newspaper" id="services-print">
+            <h3>Print</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime necessitatibus culpa sint pariatur placeat, delectus obcaecati praesentium nobis, voluptas voluptatibus animi. Magnam eius possimus sint libero voluptatem cum hic dolore.</p>
+            <button>Print Plans <i class="fa-solid fa-caret-right"></i></button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Vision Section -->
+    <section class="ourvision">
+      <div class="wrapper">
+        <h3>Our Vision</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et eum culpa itaque? Dolorum numquam laboriosam neque sed quos quibusdam doloribus saepe aliquam. Aperiam, earum. Perferendis odio possimus tempore nemo quos.</p>
+        <button>Learn More <i class="fa-solid fa-caret-right"></i></button>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="ourteam">
+      <div class="wrapper">
+        <h2>Our Team</h2>
+        <div class="team-flexbox">
+
+          <div class="team-members">
+            <img src="images/john.jpg" alt="John Doe">
+            <div id="grid">
+              <h3>John Doe</h3>
+              <h4>CEO and Co-owner</h4>
+              <hr>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus omnis illo, quam, aut eligendi iste, alias laboriosam facere voluptatem perferendis itaque quia placeat dolorem impedit eius qui dignissimos quaerat enim.</p>
+            </div>
+          </div>
+
+          <div class="team-member">
+            <img src="images/bob.jpg" alt="Bob Rite">
+            <div id="grid-team">
+              <h3>Bob Rite</h3>
+              <h4>CFO and Co-owner</h4>
+              <hr>
+              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum inventore quis reiciendis harum ducimus deserunt? Cupiditate dolorem officia, iure neque asperiores atque alias eveniet odit! Sapiente tenetur minima cupiditate debitis.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+      <h2>Contact Us</h2>
+      <div class="contactform">
+        <div id="grid-form">
+          <div class="contact-form">
+            <h3>Send us a message</h3>
+            <form>
+              <div class="form-item">
+                <label for="name">Full Name</label><br>
+                <input class="contact-type" type="text" id="name" name="name">
+              </div>
+
+              <div class="form-item">
+                <label for="email">Email</label><br>
+                <input class="contact-type" type="email" id="email" name="email">
+              </div>
+
+              <div class="form-item">
+                <label for="message">Message</label><br>
+                <textarea class="contact-message" id="message" name="message"></textarea>
+              </div>
+
+              <input id="button-form" type="submit" value="Send" class="contact-button">
+            </form>
+          </div>
+        </div>
+
+        <!-- Hours Table -->
+        <section class="hours">
+          <h2>Hours of operation</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Days</th>
+                <th>Hours</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th>Monday-Friday</th>
+                <th>9 AM - 6 PM</th>
+              </tr>
+              <tr>
+                <th>Saturday - Sunday</th>
+                <th>Closed</th>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+
+        <!-- Location Map -->
+        <section class="location">
+          <h2>Location</h2>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22433.76503734216!2d-75.75306239999998!3d45.344358400000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1743079492487!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      &copy; copyright Three Star Media 2020<br>
+      All images are taken from Unsplash
+    </footer>
+  </body>
+</html>
