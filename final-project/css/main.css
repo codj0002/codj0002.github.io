@@ -53,7 +53,7 @@ a:hover, a:focus {
 /* Header styles */
 .header-bg {
   background-color: #222222;
-  padding: 14px;
+  padding: 10px;
 }
 
 .header-nav {
@@ -107,7 +107,7 @@ a:hover, a:focus {
   border: #c78c06 0.5px solid;
   border-radius: 2px;
   padding: 6px;
-  font-size: 26px;
+  font-size: 1rem;
   background: transparent;
   color: #c78c06;
   cursor: pointer;
@@ -142,7 +142,7 @@ a:hover, a:focus {
   border: 0;
   font-size: 20px;
   background-color: #c78c06;
-  font-family: Arial, sans-serif;
+  font-family: sans-serif;
 }
 
 /* About us section */
@@ -183,13 +183,6 @@ a:hover, a:focus {
   background-color: #ffe6ac;
 }
 
-.services-flex-item p,
-.services-flex-item h3,
-.services-flex-item button {
-  margin-left: 15px;
-  margin-right: 15px;
-}
-
 .services-flexbox img {
   width: 100%;
 }
@@ -203,10 +196,9 @@ a:hover, a:focus {
   color: white;
   font-family: sans-serif;
   border: 0;
-  padding: 35px;
-  font-size: 23px;
-  cursor: pointer;
-  width: calc(100% - 30px);
+  padding: 15px;
+  font-size: 1.5rem;
+  width: 100%;
 }
 
 /* Vision section */
@@ -223,18 +215,14 @@ a:hover, a:focus {
   padding-top: 30px;
 }
 
-.vision-section p {
-  padding-top: 0px;
-}
-
 .vision-section button {
   background-color: rgba(34, 34, 34, 0.7);
+  display: flex;
   color: white;
   font-family: sans-serif;
-  padding: 35px;
-  font-size: 23px;
+  padding: 20px;
+  font-size: 1.5rem;
   border: #c78c06 0.5px solid;
-  cursor: pointer;
 }
 
 /* Team section */
@@ -256,14 +244,6 @@ a:hover, a:focus {
 
 .team-flex-item img {
   width: 100%;
-}
-
-.team-flex-item h3,
-.team-flex-item h4,
-.team-flex-item p,
-.team-flex-item hr {
-  margin-right: 14px;
-  margin-left: 14px;
 }
 
 .team-flex-item h3 {
@@ -309,7 +289,6 @@ a:hover, a:focus {
 .contact-type {
   width: 100%;
   padding: 5px;
-  /* margin: 7px 0 15px 0; */
   border: #666 0.5px solid;
   border-radius: 2px;
 }
@@ -336,7 +315,7 @@ table {
   width: 100%;
   font-family: Arial, sans-serif;
   font-size: 15px;
-  margin-bottom: -15px;
+  margin-bottom: 15px;
 }
 
 table, th, td {
@@ -414,11 +393,11 @@ footer p {
     display: flex;
     flex-direction: row;
     font-size: 20px;
-    padding: 1.8rem 0 0 0;
+    padding: 2.5rem 0 0 0;
   }
 
   .nav-bar li a {
-    padding: 1.2em 2em;
+    padding: 1rem 2rem;
   }
 
   #main-nav {
