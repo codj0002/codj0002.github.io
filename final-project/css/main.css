@@ -4,7 +4,7 @@ body {
   margin: 0 auto;
   background-color: white;
   color: #222;
-  line-height: 1.6px;
+  line-height: 1.6;
 }
 
 .wrapper {
@@ -47,7 +47,7 @@ a, a:visited {
 a:hover, a:focus {
   background-color: #c78c06;
   color: #222222;
-  padding: 15px;
+  padding: 18px;
 }
 
 /* Header styles */
@@ -110,6 +110,7 @@ a:hover, a:focus {
   font-size: 1rem;
   background: transparent;
   color: #c78c06;
+  cursor: pointer;
 }
 
 /* Welcome section */
@@ -238,6 +239,7 @@ a:hover, a:focus {
 
 .team-flex-item {
   background-color: #ffe6ac;
+  /* padding-bottom: 0px; */
 }
 
 .team-flex-item img {
@@ -311,7 +313,7 @@ textarea {
 
 table {
   width: 100%;
-  font-family: 'Open Sans', sans-serif;
+   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   margin-bottom: 15px;
 }
